@@ -37,7 +37,7 @@ def discord_logging(spam_name, spam_message, spam_ip):
     # send the thing to the webhook
     requests.post(discord_webhook_url, data=json.dumps(embed), headers={"Content-Type": "application/json"})
 
-@app.route('/configuration', methods=['GET'])
+@app.route('/up/configuration', methods=['GET'])
 def configpoint():
     # return the dynmap configuration from dynmap_config.json
     return jsonify(dynmap_config)
