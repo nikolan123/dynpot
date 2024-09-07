@@ -1,5 +1,5 @@
 # Dynpot
-A Dynmap Web Chat Honeypot\
+A Dynmap Web Chat Honeypot
 
 ## Setup
 - Clone this repository, modify dynmap_config.json and honeypot.config as needed, install the requirements and run.
