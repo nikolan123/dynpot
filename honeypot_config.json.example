@@ -1,0 +1,7 @@
+{
+    "port": 8123,
+    "discord_webhook_enabled": false,
+    "discord_webhook_url": "",
+    "file_logging": true,
+    "log_file": "log.csv"
+}
